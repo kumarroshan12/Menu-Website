@@ -1,0 +1,447 @@
+html{
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.profile{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    font-family: cursive;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    height: 100px; 
+    overflow: hidden;  
+    top: 0px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+a:hover{
+    background-color: white;
+    padding: 4px;
+    border-radius: 12px;
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    text-decoration: none;
+    color: black;
+}
+#fipg{
+    height: 100vh;
+    width: 100%;
+    background-image: url('bgimg1.jpg');
+    
+}
+.wel{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+.p1{
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+}
+.mid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.btn {
+    margin-top: 30px;
+    background: #f21616;
+    background-image: -webkit-linear-gradient(top, #f21616, #f21616);
+    background-image: -moz-linear-gradient(top, #f21616, #f21616);
+    background-image: -ms-linear-gradient(top, #f21616, #f21616);
+    background-image: -o-linear-gradient(top, #f21616, #f21616);
+    background-image: linear-gradient(to bottom, #f21616, #f21616);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #000000;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    text-decoration: none;
+    color: black;
+  }
+button:hover{
+    background-color: white;
+    color: black;
+}
+h1{
+    margin-top: 290px;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.our{
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.box1{
+    height: 60vh;
+    width: 65vh;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 26px;
+}
+.box2{
+    height: 60vh;
+    width: 65vh;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 26px;
+    
+}
+.box3{
+    height: 60vh;
+    width: 65vh;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 26px;
+   
+}
+.burger{
+    height: 195px;
+    width: 195px;
+
+}
+.bulk{
+    margin-top: 0;
+    height: 200px;
+    width: 320px;
+}
+.delivery{
+    height: 200px;
+    width: 250px;
+}
+h2{
+    font-size: 2.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.ourclients{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#clients{
+    
+    width: 100%;
+    height: 50vh;
+    background-image: url('vego.png');
+}
+.log1{
+    width: 120px;
+    height: 120px;
+}
+.log2{
+    width: 120px;
+    height: 120px;
+}
+.log3{
+    width: 120px;
+    height: 120px;
+}
+.log4{
+    width: 120px;
+    height: 120px;
+}
+.log5{
+    width: 260px;
+    height: 150px;
+}
+
+.client{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+#contact{
+    background-image: url('contact.png');
+    height: 75vh;
+    width: 100%;
+}
+.contactus{
+    margin: 0;
+    font-size: 4rem;
+    text-align: center;
+}
+input{
+    width: 550px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    
+}
+label{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#message{
+    width: 550px;
+    height: 200px;
+}
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    footer{
+        display: flex;
+        height: 5vh;
+        background-color: #3c3b3b;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width:600px){
+        .profile{
+            height: 40px;
+            width: 40px;
+            margin-left: 0;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            
+            height: 80px; 
+            overflow: hidden;  
+            top: 0px;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 100%;
+        }
+        #fipg{
+            height: 60vh;
+            width: 100%;
+            background-image: url('bgimg1.jpg');
+            
+        }
+        li{
+            list-style: none;
+            font-size: 0.7rem;
+            font-weight: 400;
+            cursor: pointer;
+            color: white;
+            font-family: cursive;
+        }
+        .wel{
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+        h1{
+            margin-top: 100px;
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .p1{
+            margin-top: 0;
+            text-align: center;
+            font-size: 1rem;
+            color: white;
+            margin: 0;
+        }
+        .btn {
+            margin-top: 20px;
+            background: #f21616;
+            background-image: -webkit-linear-gradient(top, #f21616, #f21616);
+            background-image: -moz-linear-gradient(top, #f21616, #f21616);
+            background-image: -ms-linear-gradient(top, #f21616, #f21616);
+            background-image: -o-linear-gradient(top, #f21616, #f21616);
+            background-image: linear-gradient(to bottom, #f21616, #f21616);
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 28px;
+            text-shadow: 1px 1px 3px #000000;
+            font-family: Georgia;
+            color: #ffffff;
+            font-size: 15px;
+            padding: 7px 14px 7px 14px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .our{
+            margin-top: 20px;
+            font-size: 30px;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            
+        }
+        .ourclients{
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .log1{
+            width: 40px;
+            height: 40px;
+        }
+        .log2{
+            width: 40px;
+            height: 40px;
+        }
+        .log3{
+            width: 40px;
+            height: 40px;
+        }
+        .log4{
+            width: 40px;
+            height: 40px;
+        }
+        .log5{
+            width: 60px;
+            height: 50px;
+        }
+        .client{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        #clients{
+    
+            width: 100%;
+            height: 30vh;
+            background-image: url('vego.png');
+        }
+        .contactus{
+            margin: 0;
+            font-size: 2rem;
+            text-align: center;
+        }
+        input{
+            width: 250px;
+            height: 20px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            
+        }
+        label{
+            font-size: 1rem;
+            text-align: left;
+        }
+        #message{
+            width: 250px;
+            height: 150px;
+        }
+        #contact{
+            background-image: url('contact.png');
+            height: 65vh;
+            width: 100%;
+        }
+        .burger{
+            height: 85px;
+            width: 85px;
+        
+        }
+        .bulk{
+            margin-top: 0;
+            height: 80px;
+            width: 120px;
+        }
+        .delivery{
+            height: 90px;
+            width: 120px;
+        }
+        .box1{
+            height: 50vh;
+            width: 45vh;
+            text-align: center;
+            border: 2px solid red;
+            border-radius: 26px;
+        }
+        .box2{
+            height: 50vh;
+            width: 45vh;
+            text-align: center;
+            border: 2px solid red;
+            border-radius: 26px;
+            
+        }
+        .box3{
+            height: 50vh;
+            width: 45vh;
+            text-align: center;
+            border: 2px solid red;
+            border-radius: 26px;
+           
+        }
+        
+        footer{
+            display: flex;
+            height: 5vh;
+            background-color: #3c3b3b;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.6rem;
+        }
+        h2{
+            font-size: 1.5rem;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+    }
